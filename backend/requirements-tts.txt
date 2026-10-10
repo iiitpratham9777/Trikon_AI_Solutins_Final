@@ -1,0 +1,3 @@
+# Kokoro TTS (optional until you pick TTS_ENGINE=kokoro). Untested in the build sandbox:
+# install torch first (see README), and install espeak-ng on the OS for Hindi.
+kokoro==0.9.4

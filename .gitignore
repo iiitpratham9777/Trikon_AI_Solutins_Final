@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Secrets and local config
+.env
+backend/.env
+frontend/.env
+
+# Models and generated audio
+*.onnx
+*.gguf
+models/
+*.wav
+*.webm
+*.ogg
+!docs/**/*.wav
+.cache/
+huggingface/
+
+# Local benchmark output (commit curated results into docs/performance.md instead)
+docs/benchmark-*.json
