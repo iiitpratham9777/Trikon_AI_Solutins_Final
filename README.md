@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VoxPilot - Optimized Local Voice AI Assistant
 
 A browser voice assistant that runs entirely on your own machine with open-weight models. Speak (or type) in English or Hindi; VoxPilot transcribes with **Faster-Whisper**, answers with a quantized **Qwen** model served by **Ollama**, speaks the reply with **Kokoro** (Piper supported), and remembers the conversation. No paid or hosted AI API is used anywhere in the core pipeline.
@@ -217,3 +218,6 @@ voxpilot/
   scripts/            setup.ps1, run-*.ps1, download_models.py, make_sample_audio.py, benchmark.py
   .env.example  .gitignore  README.md
 ```
+=======
+
+>>>>>>> 52dbb00c1d49a18a841546f09c4533d57f57f7c3
